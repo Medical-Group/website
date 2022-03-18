@@ -407,11 +407,31 @@ Nuestros especialistas
                 <h2 class="section-title wow fadeInDown">Contactanos</h2>
                 <p class="wow fadeInDown">&#191Necesitas ayuda o deseas agendar una cita? &#33Cont&aacutectanos! <br> Contestamos todas tus dudas de manera clara, r&aacutepida y directa. Ll&aacutemanos o escribenos por What's app al <abbr title="Phone">P:</abbr> (55) 45 15 02 28.</p>
             </div>
-            <div class="col-sm-12">
-								<div id="mapWrapper" class="mb30" style="position: relative; maring-bottom:20px; background-color: rgb(229, 227, 223); overflow: hidden; -webkit-transform: translateZ(0px);">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.270567006772!2d-98.87618138551511!3d19.486991786853473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e7041a50ace1%3A0x740cb1b83af2d9cc!2sCruz%20de%20Marzan%201%2C%20San%20Nicolas%20Huexotla%2C%2056227%20Texcoco%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1631564558560!5m2!1ses-419!2smx" width="1200" height="400" frameborder="0" style="border:0"></iframe>
+            <style>
+              .google-maps {
+                position: relative;
+                padding-bottom: 75%; // This is the aspect ratio
+                height: 0;
+                overflow: hidden;
+              }
+              .google-maps iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100% !important;
+                height: 100% !important;
+              }
+            </style>
+            <div class="google-maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.270567006772!2d-98.87618138551511!3d19.486991786853473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e7041a50ace1%3A0x740cb1b83af2d9cc!2sCruz%20de%20Marzan%201%2C%20San%20Nicolas%20Huexotla%2C%2056227%20Texcoco%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1631564558560!5m2!1ses-419!2smx"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
             </div>
-        </div>
       </div>
     </section><!--/#contact-us-->
 
